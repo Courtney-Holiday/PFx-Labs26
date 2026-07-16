@@ -1,0 +1,16 @@
+Lab 1 — Step 6 Fairness Reflection
+====================================================================
+
+Using meals_program as a feature means the tool is partly predicting
+risk based on a family's income level rather than just the student's
+own behavior or learning. This could cause the model to consistently
+flag low-income students as at-risk even when their actual attendance
+and quiz scores are fine, simply because the pattern in the training
+data connected income to risk. If a school used this tool to decide
+who gets extra support, students from wealthier families might be
+overlooked even when they are struggling, while low-income students
+might be labeled as problems before they have had a chance to show
+what they can do. A fairer approach would be to rely only on
+attendance and academic performance directly, and involve teachers or
+counselors in any final decision rather than letting the algorithm
+decide alone.
